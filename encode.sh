@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # 字符串
+while true
+do
 read -e -p  $'\e[1;32mCode:\n\e[0m' string
 save=""
 # 转换为ASCII数字编码
@@ -24,3 +26,4 @@ case $choice in
     echo "无效"
     ;;
     esac
+done
