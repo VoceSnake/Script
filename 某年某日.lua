@@ -96,5 +96,10 @@ function dump(o)
   return table.concat(t)
 end
 
+
+task(500,function()
+--延迟之后执行的事件
 print("环境配置获得成功:\n"..dump(debug.getinfo(1)))
 print(activity.getLuaDir())
+
+end)
