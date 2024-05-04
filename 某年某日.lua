@@ -97,3 +97,4 @@ function dump(o)
 end
 
 print("环境配置获得成功:\n"..dump(debug.getinfo(1)))
+print(activity.getLuaDir())
